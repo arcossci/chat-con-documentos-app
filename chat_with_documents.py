@@ -81,7 +81,7 @@ if __name__ == "__main__":
     load_dotenv(find_dotenv(), override=True)
 
     st.image('img.png')
-    st.subheader('LLM Question-Answering Application 🤖')
+    st.subheader('Application LLM Question-Answering - Nexos Software 🤖')
     with st.sidebar:
         # text_input for the OpenAI API key (alternative to python-dotenv and .env)
         api_key = st.text_input('OpenAI API Key:', type='password')
